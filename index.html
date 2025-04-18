@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body data-bs-theme="dark">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">MyPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container d-flex align-items-center justify-content-center text-center">
+            <div class="hero-content">
+                <img src="/images/image.png" alt="Profile Image" class="profile-img mb-4" />
+                <h1 class="hero-name display-3 fw-bold mb-3">Jetandhar</h1>
+                <p class="hero-subtitle lead mb-4">
+                    Web Developer | Web Designer | Creative Professional
+                </p>
+                <div class="social-icons">
+                    <a href="https://github.com/Jetandhar-Kumar" class="text-white mx-2"><i
+                            class="fab fa-github fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/jetandhar-kumar-025285346/" class="text-white mx-2"><i
+                            class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="https://www.instagram.com/jeetu_804/" class="text-white mx-2"><i
+                            class="fab fa-instagram fa-2x"></i></a>
+                </div>
+                <a href="#contact" class="btn btn-primary btn-lg mt-4">Hire Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">About Me</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>Who Am I?</h3>
+                    <p>
+                        I'm a passionate Full Stack Developer with over two years of
+                        hands-on experience turning ideas into impactful digital
+                        experiences. I specialize in building custom, high-performance web
+                        applications tailored to your unique needs.
+                    </p>
+                    <p>
+                        My skill set includes HTML5, CSS3, JavaScript, React.js, Node.js,
+                        MongoDB, and more. Whether you're launching a new startup or
+                        enhancing an existing business, I’m here to help bring your vision
+                        to life. Feel free to reach out anytime—let’s collaborate and take
+                        your online presence to the next level!
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <h3>My Skills</h3>
+                    <div class="skill-item mb-3">
+                        <h6>HTML/CSS <span class="float-end">90%</span></h6>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-3">
+                        <h6>JavaScript <span class="float-end">90%</span></h6>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-3">
+                        <h6>Bootstrap <span class="float-end">85%</span></h6>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-3">
+                        <h6>React js <span class="float-end">80%</span></h6>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-3">
+                        <h6>Node js <span class="float-end">70%</span></h6>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-3">
+                        <h6>MongoDB <span class="float-end">75%</span></h6>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">My Work</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="portfolio-item card border-0">
+                        <img src="images/ecommerce.png" class="card-img-top" alt="Project 1" />
+                        <div class="card-body">
+                            <h5 class="card-title">E-Commerce Website</h5>
+                            <p class="card-text">
+                                A responsive e-commerce site with a modern layout and shopping
+                                features. Built using HTML, CSS & React.js.
+                            </p>
+                            <a href="https://jetandhar-kumar.github.io/E-commerce-site/" class="btn project_btn"
+                                target="_blank">
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- You can repeat the same style for Project 2 -->
+                <div class="col-md-4">
+                    <div class="portfolio-item card border-0">
+                        <img src="images/hotel theme.png" class="card-img-top" alt="Project 2" />
+                        <div class="card-body">
+                            <h5 class="card-title">Hotel Booking</h5>
+                            <p class="card-text">
+                                Deluxe Hotel is a modern, responsive website showcasing premium hospitality services.
+                                Designed with elegance and functionality, it offers a seamless user experience for
+                                travelers
+                            </p>
+                            <a href="https://jetandhar-kumar.github.io/deluxe-hotel/" class="btn project_btn">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- You can repeat the same style for Project 3 -->
+                <div class="col-md-4">
+                    <div class="portfolio-item card border-0">
+                        <img src="images/tic tac toe game.png" class="card-img-top" alt="Project 2" />
+                        <div class="card-body">
+                            <h5 class="card-title">TIC TAC TOE</h5>
+                            <p class="card-text">
+                                A classic 2-player tic-tac-toe game built with HTML, CSS, and JavaScript. Play X vs O
+                                and enjoy a clean, interactive UI!
+                            </p>
+                            <a href="https://jetandhar-kumar.github.io/Tic-tac-toe-game/" class="btn project_btn">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- You can repeat the same style for Project 4 -->
+                <div class="col-md-4">
+                    <div class="portfolio-item card border-0">
+                        <img src="images/rock paper scissors.png" class="card-img-top" alt="Project 2" />
+                        <div class="card-body">
+                            <h5 class="card-title">ROCK PAPER SCISSORS</h5>
+                            <p class="card-text">
+                                ✊🖐✌ Rock Paper Scissors Game <br>
+                                A fun and interactive rock-paper-scissors game built with JavaScript. Challenge the
+                                computer and test your luck in a sleek, responsive UI!
+                            </p>
+                            <a href="https://jetandhar-kumar.github.io/rock-paper-scissors/"
+                                class="btn project_btn">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">What I Offer</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-item card bg-secondary border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-code fa-3x mb-3 text-primary"></i>
+                            <h4 class="card-title">Web Development</h4>
+                            <p class="card-text">
+                                Custom website development tailored to your specific needs and
+                                requirements.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item card bg-secondary border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-paint-brush fa-3x mb-3 text-primary"></i>
+                            <h4 class="card-title">Web Design</h4>
+                            <p class="card-text">
+                                Beautiful, responsive designs that work on all devices and
+                                screen sizes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item card bg-secondary border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-mobile-alt fa-3x mb-3 text-primary"></i>
+                            <h4 class="card-title">Mobile Apps</h4>
+                            <p class="card-text">
+                                Cross-platform mobile applications built with modern
+                                frameworks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark">
+        <div class="container">
+            <h2 class="text-center mb-5">Get In Touch</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control bg-secondary border-0" placeholder="Your Name"
+                                required />
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control bg-secondary border-0" placeholder="Your Email"
+                                required />
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control bg-secondary border-0" placeholder="Subject" />
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control bg-secondary border-0" rows="5" placeholder="Your Message"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <div class="mb-4">
+                            <h4>
+                                <i class="fas fa-map-marker-alt me-2 text-primary"></i>
+                                Location
+                            </h4>
+                            <p>Sector B, Akhtar colony, karachi</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4><i class="fas fa-envelope me-2 text-primary"></i> Email</h4>
+                            <p>Jetandhar2@gmail.com</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4><i class="fas fa-phone me-2 text-primary"></i> Phone</h4>
+                            <p>+92 323 3055682</p>
+                        </div>
+                        <div class="social-icons">
+                            <a href="https://github.com/Jetandhar-Kumar" class="text-white me-3"><i
+                                    class="fab fa-github fa-2x"></i></a>
+                            <a href="https://www.linkedin.com/in/jetandhar-kumar-025285346/" class="text-white me-3"><i
+                                    class="fab fa-linkedin fa-2x"></i></a>
+                            <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-2x"></i></a>
+                            <a href="https://www.instagram.com/jeetu_804/" class="text-white me-3"><i
+                                    class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center">
+        <div class="container">
+            <p class="mb-0">
+                &copy; <span id="year"></span> My Portfolio. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
